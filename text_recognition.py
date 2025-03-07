@@ -19,7 +19,7 @@ except ClientError as e:
     print(f"Error creating rekognition client: {e}")
 
 # Define queue and bucket names:
-queue_url = 'https://sqs.us-east-1.amazonaws.com/651856842132/car-detection-queue'
+queue_url = 'https://sqs.us-east-1.amazonaws.com/953369656079/Jasleen_queue'
 bucket_name = 'njit-cs-643'
 
 # Loop continuously to process each message from SQS:
