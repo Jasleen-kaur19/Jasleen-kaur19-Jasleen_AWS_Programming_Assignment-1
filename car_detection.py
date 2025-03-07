@@ -14,7 +14,7 @@ except ClientError as e:
     print(f"Error creating SQS client: {e}")
 
 # get SQS queue URL
-queue_url = 'https://sqs.us-east-1.amazonaws.com/651856842132/car-detection-queue'
+queue_url = 'https://sqs.us-east-1.amazonaws.com/953369656079/Jasleen_queue'
 
 # get list of object keys in S3 bucket
 bucket_name = 'njit-cs-643'
